@@ -1,0 +1,45 @@
+.dashboard {
+  max-width: 800px;
+  margin: auto;
+}
+
+.summary-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  margin: 0 0.5rem;
+}
+
+.quick-actions {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.quick-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.recent-tasks ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.quote {
+  margin-top: 2rem;
+  font-style: italic;
+  text-align: center;
+}
