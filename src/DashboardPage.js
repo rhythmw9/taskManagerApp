@@ -4,7 +4,7 @@ import "./DashboardPage.css";
 function DashboardPage(){
     return (
         <div className="dashboard">
-            <h1>Welcome to Your Dashboard</h1>
+            <h1 className="dashboard-header">Welcome to Your Dashboard</h1>
 
             <div className="summary-cards">
                 <div className="card">
@@ -21,8 +21,8 @@ function DashboardPage(){
                 </div>
             </div>
 
-            <div className="recent-tasks">
-                <h2>Recent Tasks</h2>
+            <div className="upcoming-tasks">
+                <h2>Upcoming Tasks</h2>
                 <ul>
                     <li>Finish wireframe for Project X</li>
                     <li>Update landing page styling</li>

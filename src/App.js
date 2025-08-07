@@ -8,14 +8,17 @@ import FeedbackPage from "./FeedbackPage";
 import './App.css';
 
 function App() {
+  // initalize dark mode state (default is light)
   const [darkMode, setDarkMode] = useState(false);
 
+  // function to toggle the theme
   function toggleTheme(){
-    setDarkMode(prev => !prev);
+    setDarkMode(prev => !prev); // return the input of the previous state
   }
 
   return (
-    <div className={darkMode ? 'app dark' : 'app'}>
+    // dynamically set className based on current state of darkMode
+    <div className={`app ${darkMode ? 'dark' : 'light'}`}>
       <Sidebar toggleTheme={toggleTheme} />
       <main className="main-content">
         <Routes>
