@@ -1,10 +1,10 @@
 //import logo from './logo.svg';
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "./Sidebar";
-import DashboardPage from "./DashboardPage";
-import TodosPage from "./TodosPage";
-import FeedbackPage from "./FeedbackPage";
+import Sidebar from "./components/Sidebar";
+import DashboardPage from "./pages/DashboardPage";
+import TodosPage from "./pages/TodosPage";
+import FeedbackPage from "./pages/FeedbackPage";
 import './App.css';
 
 function App() {

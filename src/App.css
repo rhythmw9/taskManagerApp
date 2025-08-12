@@ -1,17 +1,49 @@
+/* ====== Design tokens (light mode) ====== */
+:root{
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-2: #fafbfe;
+  --text: #121417;
+  --muted: #6b7280;
+  --border: #e6e8f0;
+  --primary: #0b63ce;
+  --primary-600: #0954ad;
+  --accent: #eef5ff;
+  --shadow: 0 1px 2px rgba(0,0,0,0.04), 0 6px 24px rgba(0,0,0,0.06);
+}
+
+html, body { margin: 0; padding: 0; background: var(--bg); }
+
+
 .app {
-  display: flex;
-  height: 100vh;
-  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 .main-content {
-  flex-grow: 1;
-  padding: 2rem;
+  padding: 2rem 2rem 3rem;
+}
+
+@media (max-width: 900px){
+  .app{
+    grid-template-columns: 1fr;
+  }
+  .sidebar{
+    position: relative;
+    height: auto;
+  }
+  .main-content{
+    padding: 1.25rem;
+  }
 }
 
 /* Default light theme */
 .app.light {
-  background-color: #fff;
+  background: var(--bg);
   color: #000;
   --theme-toggle-bg: #e0e0e0;
 }
@@ -22,7 +54,7 @@
 }
 
 .app.light .main-content {
-  background-color: #fff;
+  background-color: transparent;
   color: #000;
 }
 
