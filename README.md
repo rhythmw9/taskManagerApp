@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Task Manager App
+A clean, responsive web application for creating, managing, and organizing tasks with filtering, search, and priority features.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Site:**  
+https://rhythmw9.github.io/taskManagerApp/
 
-## Available Scripts
+## Overview
+This project is a front-end React web app that allows users to:
 
-In the project directory, you can run:
+- Add new tasks with title, due date, and priority
+- Mark tasks as completed or active
+- Filter tasks by status (all, active, completed)
+- Filter tasks by priority (low, medium, high)
+- Search tasks by title
+- Persist tasks in local storage for future sessions
 
-### `npm start`
+## User Stories
+- As a busy professional, I want to quickly filter tasks by priority and status so I can focus on the most urgent work.
+- As a project team member, I want to mark tasks as complete so my team can easily track overall progress
+- As a person managing multiple deadlines, I want to see upcoming tasks in a dashboard view so I can plan my day effectively.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- React (Create React App) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Ideas for Future Improvement
+- Implement drag-and-drop functionality for reordering tasks.
+- Add recurring tasks with customizable intervals (daily, weekly, monthly).
+- Integrate a backend with user authentication so each user can securely store and sync their tasks across devices.
+- Introduce a calendar view to visualize upcoming and overdue tasks.
+- Enable advanced filtering and tagging for better task organization and search.
 
-### `npm test`
+## Author
+Built by Rhythm Winicour-Freeman
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
