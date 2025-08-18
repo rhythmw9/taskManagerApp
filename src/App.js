@@ -17,8 +17,8 @@ function App() {
   }
 
   return (
+    // dynamically set className based on current state of darkMode
     <Router>
-      // dynamically set className based on current state of darkMode
       <div className={`app ${darkMode ? 'dark' : 'light'}`}>
         <Sidebar toggleTheme={toggleTheme} />
         <main className="main-content">
