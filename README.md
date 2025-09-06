@@ -2,7 +2,7 @@
 A clean, responsive web application for creating, managing, and organizing tasks with filtering, search, and priority features.
 
 **Live Site:**  
-https://rhythmw9.github.io/taskManagerApp/
+https://rhythmw9.github.io/taskManagerApp
 
 ## Overview
 This project is a front-end React web app that allows users to:
